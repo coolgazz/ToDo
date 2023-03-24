@@ -1,0 +1,17 @@
+.name {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    font-size: 72px;
+    color: #5E5E5E;
+}
+
+.text {
+    font-size: 24px;
+    color: #5E5E5E;
+    margin-bottom: 80;
+}

@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Roboto:wght@300&display=swap'); 
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1152vw ;
+    height: 700px;
+    gap:30px;
+}
+.btn {
+    background: #B47AEA;
+    border-radius: 15px;
+    width: 155px;
+    height: 42px;
+    color: #FFFFFF;
+    border: none;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+}
+.input  {
+    width: 488px;
+    height: 52px;
+    color: #757575;
+    border: 1px solid #ced4da;
+    border-radius: 15px;
+    border-color:  #1E9CEA;
+    padding-left:16px;
+    font-size: 15px;
+}
+
+.input:focus {
+    border-color: #80bdff;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+/* HEADER */
+.header {
+    display: flex;
+    margin:27px 66px 103px 50px;
+    justify-content: space-between;
+    align-items: center; 
+}
+
+.message {
+    max-width: 277px;
+    display: flex;
+    margin-right: 120px;
+
+}
+
+.person {
+    width: 74px;
+    height: 74px;
+    /* border-radius: 50%; */
+	margin-bottom: 0px;
+    /* border: 4px solid #e1e1e1; */
+    margin-right: 10px;
+}
+
+.mess-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+.mess-title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #5E5E5E;
+    width: 296px;
+}
+.exercise {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #EF6161;
+    width: 296px;
+}
+
+
+.header-title {
+    margin-right: 321px;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 77px;
+    color: #5E5E5E;
+}
+
+.btn-2 {
+    margin-top: 15px;
+    border: none;
+    width: 71px;
+    height: 29px;
+    background-color: white;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #B47AEA;
+}
+
